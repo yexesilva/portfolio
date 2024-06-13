@@ -1,0 +1,67 @@
+.portfolio .container .header {
+  padding: 25px 0;
+}
+.portfolio .container .header .ys-logo {
+  max-width: 80px;
+}
+.portfolio .container .content {
+  padding: 40px 0;
+}
+.portfolio .container .content .introducton {
+  padding-bottom: 40px;
+}
+.portfolio .container .content .introducton .intro-header {
+  color: #383F51;
+  font-family: "Oleo Script", system-ui;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .introducton .intro-text {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .introducton .headshot {
+  max-width: 500px;
+  border-radius: 10px;
+}
+.portfolio .container .content .card-row {
+  gap: 30px;
+}
+.portfolio .container .content .card-row .card-wrapper .card {
+  max-width: 555px;
+  height: 350px;
+  justify-content: end;
+  align-items: end;
+  padding: 0;
+  border: none;
+  border-radius: 10px;
+}
+.portfolio .container .content .card-row .card-wrapper .card .card-image {
+  max-width: 450px;
+}
+.portfolio .container .content .card-row .card-wrapper .card-title {
+  color: #383F51;
+  font-family: "Oleo Script", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+}
+.portfolio .container .content .cps, .portfolio .container .content .catalyst, .portfolio .container .content .pll {
+  background-color: #DDDBF1;
+}
+.portfolio .container .content .yohdev, .portfolio .container .content .stackpath, .portfolio .container .content .hotc {
+  background-color: #B7DDB8;
+}
+.portfolio .container .content .megachem, .portfolio .container .content .rubberlogix {
+  background-color: #FCFDAF;
+}
+
+/*# sourceMappingURL=styles.css.map */

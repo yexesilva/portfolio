@@ -1,0 +1,91 @@
+//color variables
+$text: #383F51;
+$lavendar: #DDDBF1;
+$banana: #FCFDAF;
+$lime: #B7DDB8;
+
+//styles
+.portfolio {
+  .container {
+    .header {
+      padding: 25px 0;
+
+      .ys-logo {
+        max-width: 80px;
+      }
+    }
+
+    .content {
+      padding: 40px 0;
+
+      .introducton {
+        padding-bottom: 40px;
+
+        .intro-header {
+          color: $text;
+          font-family: "Oleo Script", system-ui;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .intro-text {
+          color: $text;
+          font-family: Quicksand;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .headshot {
+          max-width: 500px;
+          border-radius: 10px;
+        }
+      }
+
+      .card-row {
+        gap: 30px;
+
+        .card-wrapper {
+          .card {
+            max-width: 555px;
+            height: 350px;
+            justify-content: end;
+            align-items: end;
+            padding: 0;
+            border: none;
+            border-radius: 10px;
+    
+            .card-image {
+              max-width: 450px;
+            }
+          }
+
+          .card-title {
+            color: $text;
+            font-family: "Oleo Script", system-ui;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 12px;
+          }
+        }
+      }
+
+      .cps, .catalyst, .pll {
+        background-color: $lavendar;
+      }
+
+      .yohdev, .stackpath, .hotc {
+        background-color: $lime;
+      }
+
+      .megachem, .rubberlogix {
+        background-color: $banana;
+      }
+    }
+  }
+}
