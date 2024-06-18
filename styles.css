@@ -22,8 +22,8 @@ html {
 }
 .portfolio .container .content .introducton .intro-header {
   color: #383F51;
-  font-family: "Oleo Script", system-ui;
   font-size: 40px;
+  font-family: "Oleo Script", system-ui;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -99,6 +99,125 @@ html {
 }
 .portfolio .container .content .megachem, .portfolio .container .content .rubberlogix {
   background-color: #FCFDAF;
+}
+.portfolio .container .content .tools-used {
+  padding-bottom: 40px;
+}
+.portfolio .container .content .tools-used .tools-section-title {
+  color: #383F51;
+  font-family: "Oleo Script", system-ui;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .tools-used .c-wrapper {
+  gap: 14px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+.portfolio .container .content .tools-used .c-wrapper .tool-image {
+  width: 100%;
+  max-width: 76px;
+  height: fit-content;
+}
+.portfolio .container .content .tools-used .c-wrapper .tool-info .tool-title {
+  color: #383F51;
+  font-family: "Oleo Script", system-ui;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.portfolio .container .content .tools-used .c-wrapper .tool-info .tool-description {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.portfolio .container .content .key-features .key-features-section-title {
+  color: #383F51;
+  font-family: "Oleo Script", system-ui;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .key-features .features-row .feature-title {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  padding-left: 30px;
+}
+.portfolio .container .content .key-features .features-row .feature-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #DDDBF1;
+}
+.portfolio .container .content .key-features .features-row .feature-description {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 30px;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom {
+  margin-top: 20px;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom video {
+  width: 100%;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .feature-image {
+  width: 100%;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .process-title {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .custom-bullet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .custom-bullet-list li {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .custom-bullet-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background-color: #B7DDB8;
 }
 .portfolio .container .footer {
   flex-direction: column;

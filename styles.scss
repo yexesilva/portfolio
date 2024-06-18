@@ -22,10 +22,6 @@ html {
     .content {
       padding-top: 40px;
       border-bottom: 2px solid #efefe44d;
-      // background-image: url('../portfolio/img/background.png');
-      // background-size: cover;
-      // background-position: center;
-      // background-repeat: no-repeat;
 
       .introducton {
         padding-bottom: 40px;
@@ -38,8 +34,9 @@ html {
 
         .intro-header {
           color: $text;
-          font-family: "Oleo Script", system-ui;
+          
           font-size: 40px;
+          font-family: "Oleo Script", system-ui;
           font-style: normal;
           font-weight: 400;
           line-height: normal;
@@ -132,6 +129,151 @@ html {
 
       .megachem, .rubberlogix {
         background-color: $banana;
+      }
+
+      //cps template
+      .tools-used {
+        padding-bottom: 40px;
+
+        .tools-section-title {
+          color: $text;
+          font-family: "Oleo Script", system-ui;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .c-wrapper {
+          gap: 14px;
+          margin-bottom: 15px;
+          align-items: center;
+
+          .tool-image {
+            width: 100%;
+            max-width: 76px;
+            height: fit-content;
+          }
+
+          .tool-info {
+            .tool-title {
+              color: $text;
+              font-family: "Oleo Script", system-ui;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin: 0;
+            }
+
+            .tool-description {
+              color: $text;
+              font-family: Quicksand;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin: 0;
+            }
+          }
+        }
+      }
+
+      .key-features {
+        .key-features-section-title {
+          color: $text;
+          font-family: "Oleo Script", system-ui;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+        .features-row {
+          .feature-title {
+            color: $text;
+            font-family: Quicksand;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            position: relative;
+            padding-left: 30px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 20px;
+              height: 2px;
+              background-color: $lavendar;
+            }
+          }
+
+          .feature-description {
+            color: $text;
+            font-family: Quicksand;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-left: 30px;
+          }
+
+          .feature-cards {
+            .feature-cards-bottom {
+              margin-top: 20px;
+
+              video {
+                width: 100%;
+              }
+
+              .feature-image {
+                width: 100%;
+              }
+
+              .process-title {
+                color: $text;
+                font-family: Quicksand;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+
+              .custom-bullet-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+              }
+              
+              .custom-bullet-list li {
+                color: $text;
+                font-family: Quicksand;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 10px;
+                position: relative;
+                padding-left: 30px;
+              }
+              
+              .custom-bullet-list li::before {
+                  content: "";
+                  position: absolute;
+                  left: 0;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  width: 20px;
+                  height: 2px;
+                  background-color: $lime;
+              }
+            }
+          }
+        }
       }
     }
 
