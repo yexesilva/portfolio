@@ -100,6 +100,26 @@ html {
 .portfolio .container .content .megachem, .portfolio .container .content .rubberlogix {
   background-color: #FCFDAF;
 }
+.portfolio .container .content .visit {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio .container .content .visit a {
+  color: #383F51;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+}
+.portfolio .container .content .visit a:hover {
+  color: #DDDBF1;
+}
 .portfolio .container .content .tools-used {
   padding-bottom: 40px;
 }
@@ -178,12 +198,18 @@ html {
 }
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom {
   margin-top: 20px;
+  padding-left: 30px;
+}
+.portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom:last-child {
+  margin-bottom: 40px;
 }
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom video {
   width: 100%;
+  margin-bottom: 10px;
 }
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .feature-image {
   width: 100%;
+  margin-bottom: 10px;
 }
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .process-title {
   color: #383F51;
@@ -192,6 +218,7 @@ html {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 8px;
 }
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .custom-bullet-list {
   list-style: none;
@@ -201,11 +228,11 @@ html {
 .portfolio .container .content .key-features .features-row .feature-cards .feature-cards-bottom .custom-bullet-list li {
   color: #383F51;
   font-family: Quicksand;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   position: relative;
   padding-left: 30px;
 }

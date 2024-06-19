@@ -132,6 +132,29 @@ html {
       }
 
       //cps template
+      .visit {
+        color: $text;
+        font-family: Quicksand;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        a {
+          color: $text;
+          font-family: Quicksand;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration: underline;
+
+          &:hover {
+            color: $lavendar;
+          }
+        }
+      }
+
       .tools-used {
         padding-bottom: 40px;
 
@@ -225,13 +248,20 @@ html {
           .feature-cards {
             .feature-cards-bottom {
               margin-top: 20px;
+              padding-left: 30px;
+
+              &:last-child {
+                margin-bottom: 40px;
+              }
 
               video {
                 width: 100%;
+                margin-bottom: 10px;
               }
 
               .feature-image {
                 width: 100%;
+                margin-bottom: 10px;
               }
 
               .process-title {
@@ -241,6 +271,7 @@ html {
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
+                margin-bottom: 8px;
               }
 
               .custom-bullet-list {
@@ -252,11 +283,11 @@ html {
               .custom-bullet-list li {
                 color: $text;
                 font-family: Quicksand;
-                font-size: 18px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
-                margin-bottom: 10px;
+                margin-bottom: 8px;
                 position: relative;
                 padding-left: 30px;
               }

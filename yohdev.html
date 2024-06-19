@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
+    <script src="https://kit.fontawesome.com/1752144575.js" crossorigin="anonymous"></script>
+    <title>Yexemani Silva's Portfolio</title>
+  </head>
+  <body>
+    <div class="portfolio">
+        <div class="container">
+            <!-- portfolio header -->
+            <div class="header d-flex justify-content-center">
+                <a href="/portfolio/">
+                    <img src="../portfolio/img/ys logo.png" alt="ys logo" class="ys-logo">
+                </a>
+            </div>
+    
+            <!-- portfolio content -->
+            <div class="content">
+                <!-- introduction -->
+                <div class="introducton">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="intro-header">YohDev</h1>
+                            <p class="intro-text">I worked extensively with a longstanding client who was undergoing rapid growth, 
+                                requiring frequent revamps to accommodate their needs. As the primary front-end developer 
+                                on the team, I collaborated with their in-house UX/UI designer  to create and refine user interfaces 
+                                that matched the client's evolving needs and goals.
+                            </p>
+                            
+                            <p class="visit">Visit <a href="https://www.canterpowersystems.com" target="_blank">canterpowersystems.com</a></p>
+                            <!-- arrow icon -->
+                            <a href="#key-features" class="scroll"><span><i class="fa-solid fa-arrow-down pulse-icon"></i></span></a>
+                        </div>
+                        <div class="col text-end">
+                            <img src="../portfolio/img/yohdev.png" alt="headshot" class="headshot">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tools-used">
+                    <h2 class="tools-section-title">Tools Used</h2>
+                    
+                    <div class="row tools-row justify-content-between">
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/xd.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">Adobe XD</h3>
+                                <p class="tool-description">UX/UI & Prototyping</p>
+                            </div>
+                        </div>
+
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/wordpress.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">WordPress</h3>
+                                <p class="tool-description">Content Management System</p>
+                            </div>
+                        </div>
+
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/php.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">PHP</h3>
+                                <p class="tool-description">Scripting Language</p>
+                            </div>
+                        </div>
+
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/acf.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">Advanced Custom Fields</h3>
+                                <p class="tool-description">Plugin for custom data fields</p>
+                            </div>
+                        </div>
+
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/JavaScript-logo.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">JavaScript</h3>
+                                <p class="tool-description">Programming Language</p>
+                            </div>
+                        </div>
+
+                        <div class="c-wrapper d-flex flex-col col-6 col-md-4">
+                            <img src="../portfolio/img/Bootstrap_logo.svg.png" alt="tool-image" class="tool-image">
+                            <div class="tool-info">
+                                <h3 class="tool-title">Bootstrap</h3>
+                                <p class="tool-description">Development framework</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="key-features" id="key-features">
+                    <h2 class="key-features-section-title">Key Features & Contributions</h2>
+
+                    <div class="features-row justify-content-between">
+                        <div class="feature-cards mb-4">
+                            <div class="feature-top">
+                                <h3 class="feature-title">Custom ACF Blocks for State Cards</h3>
+                                <p class="feature-description">I created a custom post type (CPT) named "State Cards" 
+                                    and implemented a query to loop through all posts, displaying information such as 
+                                    state name, image, city names within the state, and a designated color picker. 
+                                    This CPT was used across the entire site for various components, including the display 
+                                    of service area cards. When users toggled the plus icon the card opened revealing the city 
+                                    names tagged with its page link. This was made possible using CSS and Javascript.
+                                </p>
+                            </div>
+                            
+                            <div class="feature-cards-bottom row">
+                                <div class="c-wrapper col-12 col-md-5">
+                                    <video controls autoplay loop muted poster="path/to/poster-image.jpg">
+                                        <source src="../portfolio/img/Service Areas - Canter Power Systems - Google Chrome - 19 June 2024.mp4" type="video/mp4">
+                                        <source src="../portfolio/img/Service Areas - Canter Power Systems - Google Chrome - 19 June 2024.mp4" type="video/webm">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+
+                                <div class="c-wrapper col-12 col-md-7">
+                                    <p class="process-title">Process</p>
+                                    <ul class="custom-bullet-list">
+                                        <li>Created CPT using “CPT UI” plugin</li>
+                                        <li>Created new ACF group that will house the States information</li>
+                                        <li>Built query to loop through correct post type</li>
+                                        <li>Built service cards using html, php, and styled using css</li>
+                                        <li>Added JS for on-click toggl capability</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-cards">
+                            <div class="feature-cards-top">
+                                <h3 class="feature-title">Custom ACF Blocks for Heros</h3>
+                                <p class="feature-description">I developed a custom block using PHP and 
+                                    ACF fields, enabling the client to easily add images and titles through 
+                                    the data field. This block dynamically displays the background image with 
+                                    an overlaid text on the front end. On mobile devices, the content repositions 
+                                    above the image for an enhanced responsive user experience.
+                                </p>
+                            </div>
+                            
+                            <div class="feature-cards-bottom row">
+                                <div class="c-wrapper col-12 col-md-5">
+                                    <img src="../portfolio/img/cps.png" alt="feature-image" class="feature-image">
+                                </div>
+
+                                <div class="c-wrapper col-12 col-md-7">
+                                    <p class="process-title">Process</p>
+                                    <ul class="custom-bullet-list">
+                                        <li>Created new ACF group adding in necessary fields for the block</li>
+                                        <li>Built custom block using html and styled using css</li>
+                                        <li>Made block dynamic by adding in the acf fields</li>
+                                        <li>Revised Mobile View</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+             <!-- portfolio footer -->
+            <div class="footer d-flex justify-content-center">
+                <div class="contact d-flex justify-content-center">
+                    <p class="phone"><a href="tel:336-541-3400">336-541-3400</a></p>
+                    <p class="email"><a href="mailto:yexegarcia62@gmail.com">yexegarcia62@gmail.com</a></p>
+                </div>
+    
+                <div class="legal">
+                    <p class="text-center">© 2024 Yexemani Silva | Crafted with passion for exceptional user experiences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="portfolioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="portfolioModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <!-- Content for your modal goes here -->
+            <img src="" alt="Card Image" id="modalImage" class="img-fluid">
+            </div>
+        </div>
+        </div>
+    </div>  
+
+    <script>
+        // JavaScript to handle modal popup
+        document.addEventListener('DOMContentLoaded', function () {
+          // Select all cards
+          var cards = document.querySelectorAll('.c-wrapper');
+      
+          // Iterate through each card
+          cards.forEach(function (card, index) {
+            card.addEventListener('click', function () {
+              // Get the image source and title from the clicked card
+              var imageSrc = card.querySelector('.card-image').src;
+              var title = card.querySelector('.card-title').textContent;
+      
+              // Set modal content based on the clicked card
+              var modalImage = document.getElementById('modalImage');
+              modalImage.src = imageSrc;
+      
+              var modalTitle = document.getElementById('portfolioModalLabel');
+              modalTitle.textContent = title;
+      
+              // Show the modal
+              var modal = new bootstrap.Modal(document.getElementById('portfolioModal'));
+              modal.show();
+            });
+          });
+        });
+      </script>      
+  </body>
+</html>
