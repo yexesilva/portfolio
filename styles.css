@@ -91,13 +91,13 @@ html {
   line-height: normal;
   margin-top: 12px;
 }
-.portfolio .container .content .cps, .portfolio .container .content .catalyst, .portfolio .container .content .pll {
+.portfolio .container .content .cps, .portfolio .container .content .catalyst, .portfolio .container .content .pll, .portfolio .container .content .rubberlogix {
   background-color: #DDDBF1;
 }
-.portfolio .container .content .yohdev, .portfolio .container .content .stackpath, .portfolio .container .content .hotc {
+.portfolio .container .content .yohdev, .portfolio .container .content .stackpath {
   background-color: #B7DDB8;
 }
-.portfolio .container .content .megachem, .portfolio .container .content .rubberlogix {
+.portfolio .container .content .megachem, .portfolio .container .content .hotc {
   background-color: #FCFDAF;
 }
 .portfolio .container .content .visit {
